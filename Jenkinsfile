@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './invalid.out' // Intentional Error
+                    sh './hello.out'
                 }
             }
         }
