@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
-    cout << "Hello, Jenkins Pipeline!" << endl;
+    cout << "Hello, Jenkins! Webhook test successful!" << endl;
     return 0;
 }
+
